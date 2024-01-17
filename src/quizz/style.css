@@ -1,0 +1,61 @@
+.container {
+    background: linear-gradient(45deg, #2e604e, #539c69);
+    width: 450px;
+    min-width: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+}
+
+.infoperguntas {
+    width: 100%;
+    position: relative;
+}
+
+.contagemPerguntas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'YourFont', sans-serif; /* Substitua 'YourFont' pela fonte desejada */
+}
+
+.contagemPerguntas span {
+    font-size: 28px;
+    font-weight: bold; /* Adiciona negrito para destacar */
+}
+
+
+.pergunta {
+    margin-bottom: 12px;
+}
+
+.grupoResposta {
+    display: flex;
+    flex: 1 1 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resposta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    background-color: #e69354;
+    color: #fff; 
+    transition: background-color 0.3s ease;
+    width: 70px;
+    border-radius: 20%;
+}
+
+button:hover {
+    background-color: #2e123f;
+}
+
+.pontuacao {
+    margin-top: 20px;
+}
